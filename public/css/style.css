@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #121212;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.input, .input > * {
+    width: 100%;
+}
+
+.input + .input {
+    margin-top: 8px;
+}
+
+input, select {
+    border: 1px solid #eee;
+    background: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:not(.button) {
+    text-decoration: underline;
+    transition: 0.15s ease-out;
+}
+
+a:not(.button):hover {
+    color: #8958df;
+}
+
+.button, button {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: #131313;
+    border-radius: 12px;
+    padding: 10px 16px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s ease-out;
+}
+
+.button:hover, button:hover {
+    background: #353535;
+}
+
+form {
+    margin: 0 auto;
+    width: 250px;
+}
+
+form > button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.error {
+    margin-top: 4px;
+    font-size: 14px;
+    color: red;
+}
+
+header {
+    padding-block: 20px;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main {
+    padding-top: 40px;
+}
+
+.title {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.main_title {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.zapis_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+.zapis {
+    border-radius: 10px;
+    border: 1px solid #202020;
+    padding: 14px;
+}
+
+.zapis_status {
+    padding: 10px 16px;
+    background: #2076e1;
+    color: #fff;
+    border-radius: 200px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.zapis_info {
+    font-size: 18px;
+}
+
+.zapis_info + .zapis_info {
+    margin-top: 8px;
+}
