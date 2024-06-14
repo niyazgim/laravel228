@@ -14,7 +14,7 @@
         <div class="links">
             <a href="/zapis">Заявки</a>
             @if(auth()->user() && auth()->user()->role_id == 1)
-                <a href="/zapis/create">Арендовать</a>
+                <a href="/zapis/create">Заказать</a>
             @endif
         </div>
         <div class="buttons">

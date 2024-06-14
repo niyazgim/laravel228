@@ -9,7 +9,7 @@
                         <p class="zapis_status">{{$item->status->name}}</p>
                         <p class="zapis_info">{{$item->address}}</p>
                         <p class="zapis_info">{{$item->quantity}}</p>
-                        <p class="zapis_info">{{$item->car->name}}</p>
+                        <p class="zapis_info">{{$item->product->name}}</p>
                         @if(auth()->user()->role_id == 2 && $item->status_id == 1)
                             <form action="/zapis/{{$item->id}}/update" method="post">
                                 @csrf

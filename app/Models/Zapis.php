@@ -21,8 +21,8 @@ class Zapis extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function car()
+    public function product()
     {
-        return $this->belongsTo(Car::class);
+        return $this->belongsTo(Product::class);
     }
 }

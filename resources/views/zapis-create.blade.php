@@ -8,14 +8,14 @@
             <h2 class="title">Сформировать заявку</h2>
 
             <div class="input">
-                <select name="car_id">
+                <select name="product_id">
                     <option selected disabled value="">Выберите продукт</option>
-                    @foreach($cars as $item)
-                        <option @if(old('car_id') == $item->id) selected
+                    @foreach($products as $item)
+                        <option @if(old('product_id') == $item->id) selected
                                 @endif value="{{$item->id}}">{{$item->name}}</option>
                     @endforeach
                 </select>
-                @error('car_id')
+                @error('product_id')
                 <p class="error">{{$message}}</p>
                 @enderror
             </div>

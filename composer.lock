@@ -62,16 +62,16 @@
             "time": "2023-01-15T23:15:59+00:00"
         },
         {
-            "name": "carbonphp/carbon-doctrine-types",
+            "name": "productbonphp/productbon-doctrine-types",
             "version": "3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
+                "url": "https://github.com/CarbonPHP/productbon-doctrine-types.git",
                 "reference": "18ba5ddfec8976260ead6e866180bd5d2f71aa1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/18ba5ddfec8976260ead6e866180bd5d2f71aa1d",
+                "url": "https://api.github.com/repos/CarbonPHP/productbon-doctrine-types/zipball/18ba5ddfec8976260ead6e866180bd5d2f71aa1d",
                 "reference": "18ba5ddfec8976260ead6e866180bd5d2f71aa1d",
                 "shasum": ""
             },
@@ -83,7 +83,7 @@
             },
             "require-dev": {
                 "doctrine/dbal": "^4.0.0",
-                "nesbot/carbon": "^2.71.0 || ^3.0.0",
+                "nesbot/productbon": "^2.71.0 || ^3.0.0",
                 "phpunit/phpunit": "^10.3"
             },
             "type": "library",
@@ -104,15 +104,15 @@
             ],
             "description": "Types to use Carbon in Doctrine",
             "keywords": [
-                "carbon",
+                "productbon",
                 "date",
                 "datetime",
                 "doctrine",
                 "time"
             ],
             "support": {
-                "issues": "https://github.com/CarbonPHP/carbon-doctrine-types/issues",
-                "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/3.2.0"
+                "issues": "https://github.com/CarbonPHP/productbon-doctrine-types/issues",
+                "source": "https://github.com/CarbonPHP/productbon-doctrine-types/tree/3.2.0"
             },
             "funding": [
                 {
@@ -124,7 +124,7 @@
                     "type": "open_collective"
                 },
                 {
-                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                    "url": "https://tidelift.com/funding/github/packagist/nesbot/productbon",
                     "type": "tidelift"
                 }
             ],
@@ -182,7 +182,7 @@
                 },
                 {
                     "name": "Carlos Frutos",
-                    "email": "carlos@kiwing.it",
+                    "email": "productlos@kiwing.it",
                     "homepage": "https://github.com/cfrutos"
                 },
                 {
@@ -1077,7 +1077,7 @@
                 "league/commonmark": "^2.2.1",
                 "league/flysystem": "^3.8.0",
                 "monolog/monolog": "^2.0",
-                "nesbot/carbon": "^2.62.1",
+                "nesbot/productbon": "^2.62.1",
                 "nunomaduro/termwind": "^1.13",
                 "php": "^8.0.2",
                 "psr/container": "^1.1.1|^2.0.1",
@@ -1327,7 +1327,7 @@
                 "php": "^7.3|^8.0"
             },
             "require-dev": {
-                "nesbot/carbon": "^2.61",
+                "nesbot/productbon": "^2.61",
                 "pestphp/pest": "^1.21.3",
                 "phpstan/phpstan": "^1.8.2",
                 "symfony/var-dumper": "^5.4.11"
@@ -1914,7 +1914,7 @@
             "time": "2024-04-12T20:52:51+00:00"
         },
         {
-            "name": "nesbot/carbon",
+            "name": "nesbot/productbon",
             "version": "2.72.5",
             "source": {
                 "type": "git",
@@ -1928,7 +1928,7 @@
                 "shasum": ""
             },
             "require": {
-                "carbonphp/carbon-doctrine-types": "*",
+                "productbonphp/productbon-doctrine-types": "*",
                 "ext-json": "*",
                 "php": "^7.1.8 || ^8.0",
                 "psr/clock": "^1.0",
@@ -1953,7 +1953,7 @@
                 "squizlabs/php_codesniffer": "^3.4"
             },
             "bin": [
-                "bin/carbon"
+                "bin/productbon"
             ],
             "type": "library",
             "extra": {
@@ -1993,14 +1993,14 @@
                 }
             ],
             "description": "An API extension for DateTime that supports 281 different languages.",
-            "homepage": "https://carbon.nesbot.com",
+            "homepage": "https://productbon.nesbot.com",
             "keywords": [
                 "date",
                 "datetime",
                 "time"
             ],
             "support": {
-                "docs": "https://carbon.nesbot.com/docs",
+                "docs": "https://productbon.nesbot.com/docs",
                 "issues": "https://github.com/briannesbitt/Carbon/issues",
                 "source": "https://github.com/briannesbitt/Carbon"
             },
@@ -2014,7 +2014,7 @@
                     "type": "opencollective"
                 },
                 {
-                    "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
+                    "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-productbon?utm_source=packagist-nesbot-productbon&utm_medium=referral&utm_campaign=readme",
                     "type": "tidelift"
                 }
             ],

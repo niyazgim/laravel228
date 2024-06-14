@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Car;
+use App\Models\Product;
 use App\Models\Zapis;
 use Illuminate\Http\Request;
 
@@ -19,13 +19,13 @@ class ZapisController extends Controller
 
     public function create()
     {
-        return view("zapis-create", ['cars' => Car::all()]);
+        return view("zapis-create", ['products' => Product::all()]);
     }
 
     public function store(Request $request)
     {
         $data = $request->validate([
-            'car_id' => 'required|numeric|exists:cars,id',
+            'product_id' => 'required|numeric|exists:products,id',
             'address' => 'required|string',
             'quantity' => 'required|numeric|min:0',
         ]);

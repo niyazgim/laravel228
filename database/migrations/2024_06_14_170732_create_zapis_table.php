@@ -14,8 +14,8 @@ return new class extends Migration {
     {
         Schema::create('zapis', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('car_id');
-            $table->foreign('car_id')->references('id')->on('cars');
+            $table->unsignedBigInteger('product_id');
+            $table->foreign('product_id')->references('id')->on('products');
             $table->unsignedBigInteger('user_id');
             $table->string('address');
             $table->unsignedInteger('quantity');
